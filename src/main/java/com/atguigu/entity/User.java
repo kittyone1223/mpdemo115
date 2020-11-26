@@ -18,7 +18,7 @@ public class User {
     private Integer age;
     private String email;
     private String superMan;
-
+    private String hobby;
 
     @TableField(fill = FieldFill.INSERT)
     private Date createTime;
