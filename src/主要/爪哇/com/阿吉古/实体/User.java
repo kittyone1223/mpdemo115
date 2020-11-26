@@ -20,6 +20,7 @@ public class User {
     private String superMan;
     private String hobby;
     private String weight;
+    private String color;
 
     @TableField(fill = FieldFill.INSERT)
     private Date createTime;
